@@ -21,7 +21,7 @@ public class TestLogin {
 	LoginPages loginPages;
 	PagesLoginSucces pagesLoginSucces;
 	@Before
-	public void  setUp()
+	public void  setUp() 
 	{
 		System.setProperty(TYPE_DRIVER, PATH_DRIVER);
 		driver =  new ChromeDriver();
